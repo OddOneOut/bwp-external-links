@@ -1,0 +1,16 @@
+a.ext-link, a.ext-link:link {
+	background: url("../images/external.png") no-repeat 100% 0;
+	padding-right: 13px;
+}
+
+a.ext-link:visited, a.ext-link:visited {
+	/*color: purple;*/
+	background: url("../images/external.png") no-repeat 100% -100px;
+	padding-right: 13px;
+}
+
+a.ext-link:hover, a.ext-link:active {
+	/*color: red;*/
+	background: url("../images/external.png") no-repeat 100% -200px;
+	padding-right: 13px;
+}

@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BWP External Links\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-07 22:44+0700\n"
+"PO-Revision-Date: 2011-06-08 13:48+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-bwp-external-links.php:77
+msgid "Better WordPress External Links Settings"
+msgstr "Tetapan Sambungan Luaran Better WordPress"
+
+#: includes/class-bwp-external-links.php:149
+msgid "Better WordPress External Links"
+msgstr "Sambungan Luaran Better WordPress"
+
+#: includes/class-bwp-external-links.php:160
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Anda tidak mempunyai kebenaran untuk mengakses muka ini."
+
+#: includes/class-bwp-external-links.php:175
+msgid "General Options"
+msgstr "Pilihan Umum"
+
+#: includes/class-bwp-external-links.php:176
+msgid "Process links inside"
+msgstr "Proses sambungan di dalam"
+
+#: includes/class-bwp-external-links.php:177
+msgid "Process page-wide links?"
+msgstr "Proses muka-lebar sambungan?"
+
+#: includes/class-bwp-external-links.php:178
+msgid "Use CSS provided by this plugin?"
+msgstr "Gunakan CSS yang disediakan oleh plugin?"
+
+#: includes/class-bwp-external-links.php:179
+msgid "Processing Options"
+msgstr "Plilihan Memproses"
+
+#: includes/class-bwp-external-links.php:180
+#: includes/class-bwp-external-links.php:181
+msgid "Add the attribute"
+msgstr "Tambah attribut"
+
+#: includes/class-bwp-external-links.php:182
+msgid "A custom rel attribute"
+msgstr "Rel Attribut biasa"
+
+#: includes/class-bwp-external-links.php:183
+msgid "Ignore links pointing to"
+msgstr "Abaikan sambungan yang ditujukan ke"
+
+#: includes/class-bwp-external-links.php:184
+msgid "If you choose to ignore some subdomains, input them here (one per line)"
+msgstr "Jika anda memilih untuk mengabaikan sesetengah subdomain, masukkannya disini (satu per barisan)"
+
+#: includes/class-bwp-external-links.php:186
+msgid "Forced local domains (one per line)"
+msgstr "Paksa domain lalai (satu per barisan)"
+
+#: includes/class-bwp-external-links.php:187
+msgid "Forbidden domains (one per line) &mdash; useful for comment text"
+msgstr "Larang domain (satu per barisan) &mdash; berguna untuk teks komen"
+
+#: includes/class-bwp-external-links.php:188
+msgid "URLs pointing to forbidden domains will be replaced with"
+msgstr "URL yang disambungkan ke domain terlarang akan digantikan dengan"
+
+#: includes/class-bwp-external-links.php:189
+msgid "Displaying &amp; Interacting Options"
+msgstr "Paparkan &amp; Pilihan Tindakan"
+
+#: includes/class-bwp-external-links.php:190
+msgid "External links&#8217; CSS class"
+msgstr "Sambungan luaran&#8217; kelas CSS"
+
+#: includes/class-bwp-external-links.php:191
+msgid "Local links&#8217; CSS class"
+msgstr "Sambungan lalai&#8217; kelas CSS"
+
+#: includes/class-bwp-external-links.php:192
+msgid "Open"
+msgstr "Buka"
+
+#: includes/class-bwp-external-links.php:193
+msgid "Prefix external links with"
+msgstr "Sambungan luaran awalan dengan"
+
+#: includes/class-bwp-external-links.php:198
+#, php-format
+msgid "<em>All input fields are optional. To say the truth, configuring this plugin can be quite confusing (I'm terribly sorry!) I have written a rather detailed guide that might help you out, please take a <a href=\"%s#usage\">look at it</a> if you are interested.</em>"
+msgstr "<em>Semua bidang masukkan adalah tidak wajib. Jujurnya, mengkonfigurasikan plugin ini adalah agak mengelirukan (Saya memohon maaf!) Saya telah menulis petunjuk yang terperinci yang mungkin menolong anda, sila <a href=\"%s#usage\">lihat ini</a> jika anda berminat.</em>"
+
+#: includes/class-bwp-external-links.php:199
+msgid "<em>Customize how your links are shown.</em>"
+msgstr "<em>Selaraskan bagaimana sambungan anda akan dipaparkan.</em>"
+
+#: includes/class-bwp-external-links.php:208
+msgid "all subdomains"
+msgstr "semua subdomain"
+
+#: includes/class-bwp-external-links.php:209
+msgid "no subdomains"
+msgstr "tiada subdomain"
+
+#: includes/class-bwp-external-links.php:210
+msgid "some subdomains"
+msgstr "sesetengah subdomain"
+
+#: includes/class-bwp-external-links.php:213
+msgid "using the \"onclick\" attribute"
+msgstr "gunakan attribut \"onclick\" "
+
+#: includes/class-bwp-external-links.php:214
+msgid "using the \"target\" attribute"
+msgstr "gunakan attribut \"target\""
+
+#: includes/class-bwp-external-links.php:215
+msgid "using jQuery"
+msgstr "gunakan jQuery"
+
+#: includes/class-bwp-external-links.php:218
+msgid "one new window for each external link (_blank)"
+msgstr "sebuah tetingkap baharu untuk setiap sambungan luaran (_blank)"
+
+#: includes/class-bwp-external-links.php:219
+msgid "just one new window for all external links (_new)"
+msgstr "hanya sebuah tetingkap baharu untuk semua sambungan luaran (_new)"
+
+#: includes/class-bwp-external-links.php:220
+msgid "no new window at all for external links"
+msgstr "tiada tetingkap baharu pada keseluruhan sambungan luaran"
+
+#: includes/class-bwp-external-links.php:223
+msgid "nothing"
+msgstr "tiada"
+
+#: includes/class-bwp-external-links.php:225
+msgid "a custom URL"
+msgstr "URL lalai"
+
+#: includes/class-bwp-external-links.php:229
+msgid "post contents, i.e. hook to <code>the_content()</code>"
+msgstr "hantar kandungan-kandungan, contohnya sambungan ke <code>the_content()</code>"
+
+#: includes/class-bwp-external-links.php:230
+msgid "comment text, i.e. hook to <code>comment_text()</code>"
+msgstr "teks komen, contohnya sambungan ke <code>comment_text()</code>"
+
+#: includes/class-bwp-external-links.php:231
+msgid "text widgets, i.e. hook to <code>widget_text()</code>"
+msgstr "widget teks, contohnya sambungan ke <code>widget_text()</code>"
+
+#: includes/class-bwp-external-links.php:232
+msgid "This plugin will find and process all links on any given page. This option will override what you check above. This is an advanced feature and should be used only for sites that do not have too much contents."
+msgstr "Plugin ini akan menjumpai dan memproses semua sambungan pada mana-mana muka yang diberi. Pilihan ini akan menggandakan apa yang anda semak di atas. Ini adalah fungsi lebihan yang mana sepatutnya hanya digunakan pada tapak yang tidak mempunyai terlalu banyak kandungan."
+
+#: includes/class-bwp-external-links.php:233
+msgid "a very simple CSS provided so that you can see the \"external\" effect :). It is recommended that you disable this and use your own rules."
+msgstr "CSS yang biasa disediakan jadi anda boleh melihat kesan \"external\" :). Ini disyorkan untuk menutup fungsi ini dan gunakan cara anda sendiri. "
+
+#: includes/class-bwp-external-links.php:234
+msgid "<code>rel=\"external\"</code> to external links?"
+msgstr "<code>rel=\"external\"</code> ke sambungan luaran?"
+
+#: includes/class-bwp-external-links.php:235
+msgid "<code>rel=\"nofollow\"</code> to external links?"
+msgstr "<code>rel=\"nofollow\"</code> ke sambungan luaran?"
+
+#: includes/class-bwp-external-links.php:238
+msgid "a simple string describing the relation."
+msgstr "simpulan biasa untuk menerangkan kesinambungan"
+
+#: includes/class-bwp-external-links.php:240
+msgid "This can be <code>#top</code>, <code>http://www.google.com</code> or anything else suitable for the <code>href</code> attribute."
+msgstr "Ini boleh <code>#top</code>, <code>http://google.com</code> atau apa sahaja yang sesuai untuk attribut <code>href</code>."
+
+#: includes/class-bwp-external-links.php:243
+msgid " <em>and the custom URL (if chosen) is</em> "
+msgstr "<em>dan URL biasa (jika dipilih) adalah</em> "
+
+#: includes/class-bwp-external-links.php:243
+msgid "(for example, prepend external links with something like <code>http://yourdomain.com/out.php?</code>)"
+msgstr "(contohnya, tambah sambungan luaran dengan perkara seperti <code>http://domainanda.com/out.php?</code>)"
+
+#: includes/class-bwp-framework.php:172
+#, php-format
+msgid "%s requires WordPress <strong>%s</strong> or higher and PHP <strong>%s</strong> or higher. The plugin will not function until you update your software. Please deactivate this plugin."
+msgstr "%s memerlukan WordPress <strong>%s</strong> atau lebih tinggi dan PHP <strong>%s</strong> atau lebih tinggi. Plugin ini tidak akan berfungsi sehingga anda menaiktaraf perisian anda. Sila nyahaktifkan plugin ini."
+
+#: includes/class-bwp-framework.php:183
+msgid "Development Log"
+msgstr "Log Pembangunan"
+
+#: includes/class-bwp-framework.php:183
+msgid "Frequently Asked Questions"
+msgstr "Soal Jawab"
+
+#: includes/class-bwp-framework.php:183
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/class-bwp-framework.php:183
+msgid "Got a problem? Send me a feedback!"
+msgstr "Alami masalah? Hantarkan soal balas kepada saya!"
+
+#: includes/class-bwp-framework.php:183
+msgid "Contact"
+msgstr "Hubungi"
+
+#: includes/class-bwp-framework.php:190
+msgid "You can buy me some special coffees if you appreciate my work, thank you!"
+msgstr "Anda boleh membelikan saya 'kopi' jika menyukai hasil kerja saya, terima kasih!"
+
+#: includes/class-bwp-framework.php:204
+msgid "Donate to "
+msgstr "Dermakan kepada"
+
+#: includes/class-bwp-framework.php:206
+msgid "One cup $5.00"
+msgstr "Satu cawan $5.00"
+
+#: includes/class-bwp-framework.php:207
+msgid "Two cups $10.00"
+msgstr "Dua cawan $10.00"
+
+#: includes/class-bwp-framework.php:208
+msgid "Five cups! $25.00"
+msgstr "Lima cawan! $25.00"
+
+#: includes/class-bwp-framework.php:209
+msgid "One LL-cup!!! $50.00"
+msgstr "Satu cawan saiz-LL!!! $50.00"
+
+#: includes/class-bwp-framework.php:210
+msgid "... or any amount!"
+msgstr "atau apa jua amaun!"
+
+#: includes/class-bwp-framework.php:225
+msgid "Latest updates from BetterWP.net!"
+msgstr "Kandungan terbaharu daripada BetterWP.net!"
+
+#: includes/class-bwp-framework.php:226
+msgid "Follow me on Twitter!"
+msgstr "Ikuti saya di Twitter!"
+
+#: includes/class-bwp-framework.php:235
+#, php-format
+msgid "You are using version %s!"
+msgstr "Anda sedang menggunakan versi %s!"
+
+#: includes/class-bwp-framework.php:372
+msgid "Settings"
+msgstr "Tetapan"
+
+#: includes/bwp-option-page/includes/class-bwp-option-page.php:80
+msgid "Plugin Configurations"
+msgstr "Konfigurasi Plugin"
+
+#: includes/bwp-option-page/includes/class-bwp-option-page.php:398
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
