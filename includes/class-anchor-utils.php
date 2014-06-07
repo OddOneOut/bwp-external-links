@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (c) 2011 Khang Minh <betterwp.net>
+ * Copyright (c) 2014 Khang Minh <betterwp.net>
  * @license http://www.gnu.org/licenses/gpl.html GNU GENERAL PUBLIC LICENSE VERSION 3.0 OR LATER
  */
 
@@ -9,9 +9,9 @@ if (@ini_get('pcre.backtrack_limit') <= 750000)
 if (@ini_get('pcre.recursion_limit') <= 250000)
 	@ini_set('pcre.recursion_limit', 250000);
 
-class BWP_EXTERNAL_LINKS_OB {
-
-	function ob_start()
+class BWP_EXTERNAL_LINKS_OB
+{
+	public function ob_start()
 	{
 		static $done = false;
 
@@ -23,17 +23,17 @@ class BWP_EXTERNAL_LINKS_OB {
 
 		$done = true;
 	}
-	
-	function ob_filter($text)
+
+	public function ob_filter($text)
 	{
 		$text = bwp_external_links($text);
 		return $text;
 	}
-	
-	function ob_flush()
+
+	public function ob_flush()
 	{
 		static $done = true;
-		
+
 		if ($done)
 			return;
 
@@ -41,6 +41,4 @@ class BWP_EXTERNAL_LINKS_OB {
 
 		$done = true;
 	}
-	
 }
-?>

@@ -2,9 +2,9 @@
 Contributors: OddOneOut
 Donate link: http://betterwp.net/wordpress-plugins/bwp-external-links/#contributions
 Tags: external links, links, domain filtering
-Requires at least: 2.8
-Tested up to: 3.7
-Stable tag: 1.1.2
+Requires at least: 3.0
+Tested up to: 3.9.1
+Stable tag: 1.1.3
 
 Gives you total control over external links on your website.
 
@@ -39,6 +39,7 @@ If you want to see this plugin in action, you can either visit [my website](http
 * Danish - Danske (da_DK) - Thanks to [Randi](http://runit.nu)!
 * Malaysian (ms_MY) - Thanks to [d4rkcry3r](http://d4rkcry3r.com/)!
 * Dutch (nl_NL) - Thanks to Juliette!
+* Serbo-Croatian (sr_RS) - Thanks to [Web Hosting Hub](http://www.webhostinghub.com)!
 
 Please [help translate](http://betterwp.net/wordpress-tips/create-pot-file-using-poedit/) this plugin!
 
@@ -57,6 +58,20 @@ You should not have any trouble installing this plugin. You can read the [instru
 1. Some advanced settings for your external (and local) links.
 
 == Changelog ==
+
+= 1.1.3 =
+* WordPress 3.9 compatible.
+* Added ability to use wildcards in domain settings.
+* Added a CSS class for external image link, default is `ext-image`.
+* Added a Serbo-Croatian translation - Thanks to Borisa Djuraskovic!
+* Improved handling of external links.
+* Updated the default 'external' image (`external.png`) to use an optimized version (download size goes down from ~50KB to 404 bytes) - Thanks to Beheerder!
+* Updated Danish translation - Thanks to Randi!
+* Fixed an issue where links are not processed (priorities set for some filters were too high), thanks to user **jrf**.
+
+I have also updated the [Official Documentation](http://betterwp.net/wordpress-plugins/bwp-external-links/#usage) to reflect all changes so it is highly recommended that you give it a good read.
+
+Note that BWP External Links now requires WordPress 3.0 or later.
 
 = 1.1.2 =
 * Marked as WordPress 3.7 compatible.
