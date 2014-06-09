@@ -1,7 +1,7 @@
 === Better WordPress External Links ===
 Contributors: OddOneOut
 Donate link: http://betterwp.net/wordpress-plugins/bwp-external-links/#contributions
-Tags: external links, links, domain filtering
+Tags: external links, external images, external domains, external, nofollow, link-target, link-icon
 Requires at least: 3.0
 Tested up to: 3.9.1
 Stable tag: 1.1.3
@@ -14,23 +14,33 @@ This plugin gives you total control over external links on your website. This pl
 
 **Demo**
 
-If you want to see this plugin in action, you can either visit [my website](http://betterwp.net) or [a user's website](http://wordpress.grc.nasa.gov) (NASA Glenn Research Center's Website).
+If you want to see this plugin in action, you can either visit [Better WordPress](http://betterwp.net) or [a user's website](http://wordpress.grc.nasa.gov) (NASA Glenn Research Center's Website).
 
 **Some Features**
 
-* Allows you to process links for post contents, comment text, text widgets, or the whole page (**new in 1.1.0**)
-* Allows you to add `rel="external"`, `rel="nofollow"` or any custom relation tag you could think of to external links
-* Allows you to specify CSS classes for both local and external links
-* Allows you to choose whether or not to open a completely new window for each external link
-* Allows you to choose between three 'new window' modes: onclick, target or jQuery
-* Allows you to prefix external links with anything (typical use could be a redirection page that warns your visitors about the danger of visiting external sites)
-* Allows you to specify which sub-domain of your website/blog to be considered local
-* WordPress Multi-site compatible (not tested with WPMU)
+* Process links for post contents, comment text, text widgets, or the whole page
+* Domain filtering:
+    * You can specify which sub-domains of your website to consider local (all subdomains, no subdomain, or some)
+    * You can specify which external domains to consider local
+    * You can forbid certain external domains (e.g. pron.com or warez.com) and replace URLs linking to them with a URL of choice (useful for filtering links in visitors' comments)
+    * Wildcard support, e.g. `*.example.com`, `*.subdomain.example.com`
+* You can add `rel="external"`, `rel="nofollow"` or any custom relation tag you could think of to external links
+* You can specify CSS classes for both local and external links, as well as external image links
+* You can use provided CSS rules (an external icon is added to each external link) or define your own
+* Choose whether or not to open a completely new window for each external link
+* Choose between three 'new window' modes: `onclick` attribute, `target` attribute or jQuery
+* Add a prefix to external links. Example use would be a redirection page that warns your visitors about the danger of visiting external sites, e.g. `http://yourdomain.com/out?`
+* WordPress Multi-site compatible
 * And more...
+
+It is highly recommended that you give the [Official Documentation](http://betterwp.net/wordpress-plugins/bwp-external-links/#usage) a good read to make the most out of **BWP External Links**.
+
+Please don't forget to rate this plugin [5 shining stars](http://wordpress.org/support/view/plugin-reviews/bwp-external-links?filter=5) if you like it, thanks!
 
 **Get in touch**
 
-* I'm available at [BetterWP.net](http://betterwp.net) and you can also follow me on [Twitter](http://twitter.com/0dd0ne0ut).
+* Support is provided via [BetterWP.net Community](http://betterwp.net/community/).
+* You can also follow me on [Twitter](http://twitter.com/0dd0ne0ut).
 * Check out [latest WordPress Tips and Ideas](http://feeds.feedburner.com/BetterWPnet) from BetterWP.net.
 
 **Languages**
@@ -47,7 +57,12 @@ Visit [Plugin's Official Page](http://betterwp.net/wordpress-plugins/bwp-externa
 
 == Installation ==
 
-You should not have any trouble installing this plugin. You can read the [instructions](http://betterwp.net/wordpress-plugins/bwp-external-links/installation/) if you wish.
+1. Upload the `bwp-external-links` folder to the `/wp-content/plugins/` directory
+2. Activate the plugin through the Plugins menu in WordPress. After activation, you should see a menu of this plugin under Settings.
+3. Configure the plugin. 
+4. Enjoy!
+
+It is highly recommended that you give the [Official Documentation](http://betterwp.net/wordpress-plugins/bwp-external-links/#usage) a good read to make the most out of **BWP External Links**.
 
 == Frequently Asked Questions ==
 

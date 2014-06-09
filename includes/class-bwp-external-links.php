@@ -206,6 +206,7 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 						'textarea',
 						'input',
 						'select',
+						'input',
 						'heading', // Attribute Settings
 						'checkbox',
 						'checkbox',
@@ -222,18 +223,19 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 						__('Process links inside', $this->domain),
 						__('Process page-wide links?', $this->domain),
 						__('Link Settings', $this->domain),
-						__('Ignore links pointing to', $this->domain),
-						__('If you choose to ignore some subdomains, input them here (one per line)', $this->domain),
+						__('Subdomains', $this->domain),
+						__('Local subdomains &mdash; Links to these subdomains are local', $this->domain),
 						/*__('Ignore links pointing to URL with', $this->domain),*/
-						__('Forced local domains (one per line)', $this->domain),
-						__('Forbidden domains (one per line) &mdash; useful for comment text', $this->domain),
-						__('URLs pointing to forbidden domains will be replaced with', $this->domain),
-						__('Prefix external links with', $this->domain),
+						__('Forced local domains', $this->domain),
+						__('Forbidden domains &mdash; useful for comment text', $this->domain),
+						__('Links to forbidden domains will be replaced with', $this->domain),
+						__('External link prefix', $this->domain),
+						__('Custom URL prefix', $this->domain),
 						__('Attribute Settings', $this->domain),
 						__('Add the attribute', $this->domain),
 						__('Add the attribute', $this->domain),
-						__('A custom rel attribute', $this->domain),
-						__('Open', $this->domain),
+						__('Custom rel attribute values', $this->domain),
+						__('Open external links', $this->domain),
 						__('Display Settings', $this->domain),
 						__('External links&#8217; CSS class', $this->domain),
 						__('External image links&#8217; CSS class', $this->domain),
@@ -251,6 +253,7 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 						'input_forbidden',
 						'input_forbidden_replace',
 						'select_anonymous_prefix',
+						'input_custom_prefix',
 						'h3',
 						'cb4',
 						'cb5',
@@ -284,9 +287,9 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 					),
 					'select' => array(
 						'select_sub_method' => array(
-							__('all subdomains', $this->domain)  => 'all',
-							__('no subdomains', $this->domain)   => 'none',
-							__('some subdomains', $this->domain) => 'some'
+							__('Links to all subdomains are considered local', $this->domain)  => 'all',
+							__('Links to all subdomains are considered external', $this->domain)   => 'none',
+							__('Links to some subdomains are considered local', $this->domain) => 'some'
 						),
 						'select_exe_type' => array(
 							__('using the "onclick" attribute', $this->domain) => 'onclick',
@@ -294,14 +297,14 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 							__('using jQuery', $this->domain)                  => 'jquery'
 						),
 						'select_target' => array(
-							__('one new window for each external link (_blank)', $this->domain)    => '_blank',
-							__('just one new window for all external links (_new)', $this->domain) => '_new',
-							__('no new window at all for external links', $this->domain)           => '_none'
+							__('in one new tab/window (_blank)', $this->domain) => '_blank',
+							__('in just one new window (_new)', $this->domain)  => '_new',
+							__('in the same tab/window', $this->domain)         => '_none'
 						),
 						'select_anonymous_prefix' => array(
-							__('nothing', $this->domain)      => 'none',
+							__('No prefix', $this->domain)      => 'none',
 							'http://anonym.to?'               => 'http://anonym.to?',
-							__('a custom URL', $this->domain) => 'custom'
+							__('A custom URL', $this->domain) => 'custom'
 						)
 					),
 					'checkbox'	=> array(
@@ -316,7 +319,7 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 					'input'	=> array(
 						'input_external_rel'      => array(
 							'size'  => 50,
-							'label' => __('a simple string describing the relation.', $this->domain)
+							'label' => __('separate each value by a space.', $this->domain)
 						),
 						/*'input_top_level_domain' => array(
 							'size' => 50,
@@ -341,32 +344,46 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 							'size' => 50
 						),
 						'input_custom_prefix'     => array(
-							'pre'   => __(' <em>and the custom URL (if chosen) is</em> ', $this->domain),
-							'size'  => 30,
-							'label' => __('(for example, prepend external links with something like '
-								. '<code>http://yourdomain.com/out.php?</code>)', $this->domain)
+							'size'  => 50,
+							'label' => '<br >' .
+								__('For example you can prepend external links with something like '
+								. '<code>http://yourdomain.com/out.php?</code>.', $this->domain)
 						)
 					),
 					'textarea' => array(
 						'input_local_sub'    => array(
 							'cols' => 40,
-							'rows' => 3
+							'rows' => 5,
+							'post' => '<br /><em>' .
+								__('Please put one subdomain per line (WITHOUT scheme and main domain). '
+								. 'Wildcard is supported.<br />Example: <code>sub2.sub1</code> or '
+								. '<code>*.sub1</code> will make <code>sub2.sub1.example.com</code> local.<br />'
+								. '<strong>Note</strong>: <code>www</code> and <code>non-www</code> versions '
+								. 'of the same domain are always considered local.', $this->domain)
+								. '</em>'
 						),
 						'input_forced_local' => array(
 							'cols' => 40,
-							'rows' => 3
+							'rows' => 5,
+							'post' => '<br /><em>' .
+								__('Please put one domain per line (WITHOUT scheme). '
+								. 'Wildcard is supported.<br />Example: <code>external.com</code> or '
+								. '<code>*.external.com</code>.', $this->domain)
+								. '</em>'
 						),
 						'input_forbidden'    => array(
 							'cols' => 40,
-							'rows' => 3
+							'rows' => 5,
+							'post' => '<br /><em>' .
+								__('Please put one domain per line (WITHOUT scheme). '
+								. 'Wildcard is supported.<br />Example: <code>forbidden.com</code> or '
+								. '<code>*.forbidden.com</code>.', $this->domain)
+								. '</em>'
 						)
 					),
 					'inline_fields' => array(
 						'select_target' => array(
 							'select_exe_type' => 'select'
-						),
-						'select_anonymous_prefix' => array(
-							'input_custom_prefix' => 'input'
 						)
 					)
 				);
@@ -484,7 +501,7 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 			// make each domain preg_replace ready
 			// @since 1.1.3 basic support for wildcards
 			$item = str_replace('.', '\\.', $item);
-			$item = str_replace('*\\.', '.*?', $item);
+			$item = str_replace('*\\.', '.*?\\.', $item);
 
 			$preg_string .= $item . '|';
 		}
@@ -578,8 +595,8 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 			: $subdomains;
 
 		$domain = preg_replace(
-			'#^(https?)://(?:' . $subdomains . ')\.([^/]+)#iu',
-			'$1://$2', $domain
+			'#^(?:' . $subdomains . ')\.([^/]+)#iu',
+			'$1', $domain
 		);
 
 		return $domain;
@@ -738,6 +755,12 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 		{
 			// if current url's domain is the same as base domain, this url is local
 			return false;
+		}
+
+		if (false !== strpos($base_domain, 'www.'))
+		{
+			// if base domain contains a `www` subdomain, remove it
+			$base_domain = str_replace('www.', '', $base_domain);
 		}
 
 		$local_domains = $this->_parse_options('input_forced_local', false);
