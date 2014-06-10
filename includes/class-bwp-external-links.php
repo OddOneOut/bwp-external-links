@@ -95,6 +95,15 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 <?php
 	}
 
+	protected function pre_init_properties()
+	{
+		// define a few urls that are used throughout the plugin
+		$this->add_url('bwp_tip_redirect',
+			'http://betterwp.net/wordpress-tips/redirect-external-links/',
+			false
+		);
+	}
+
 	protected function init_hooks()
 	{
 		// no links processing for admin page - @since 1.1.0
@@ -348,6 +357,10 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 							'label' => '<br >' .
 								__('For example you can prepend external links with something like '
 								. '<code>http://yourdomain.com/out.php?</code>.', $this->domain)
+								. '<br />' . sprintf(
+								__('Check <a href="%s" target="_blank">this tutorial</a> out for some tips on how to set up '
+								. 'a redirection/disclaimer page for external links.', $this->domain),
+								$this->get_url('bwp_tip_redirect'))
 						)
 					),
 					'textarea' => array(
@@ -950,16 +963,14 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 			}
 
 			$external_prefix = $this->anonymous_prefix;
-			if ($is_external && $external_prefix)
+			if ($is_external && !empty($external_prefix))
 			{
 				// add a prefix, such as `http://example.com/out?` to external
 				// links, this allows user to create a friendly redirection page.
 				// @since 1.1.3 link is urlencoded
-				$new_link = preg_replace(
-					'/href=(?:"|\')(' . $href . ')(?:"|\')/iu',
-					'href="' . $external_prefix . urlencode($href),
-					$new_link
-				);
+				$new_link = $this->_insert_attribute('href',
+					$external_prefix . urlencode($href),
+					$new_link, true);
 			}
 
 			$searches[]     = $link;

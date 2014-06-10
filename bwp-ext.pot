@@ -2,275 +2,361 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BWP External Links\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-27 23:06+0700\n"
-"PO-Revision-Date: 2013-10-27 23:06+0700\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2014-06-10 20:21+0700\n"
+"PO-Revision-Date: 2014-06-10 20:21+0700\n"
+"Last-Translator: Khang Minh <contact@betterwp.net>\n"
+"Language-Team: BWP <contact@betterwp.net>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#: includes/class-bwp-external-links.php:77
-msgid "Better WordPress External Links Settings"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:152
-msgid "Better WordPress External Links"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:163
-msgid "You do not have sufficient permissions to access this page."
-msgstr ""
-
-#: includes/class-bwp-external-links.php:178
-msgid "General Options"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:179
-msgid "Process links inside"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:180
-msgid "Process page-wide links?"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:181
-msgid "Use CSS provided by this plugin?"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:182
-msgid "Processing Options"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:183
-#: includes/class-bwp-external-links.php:184
-msgid "Add the attribute"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:185
-msgid "A custom rel attribute"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:186
-msgid "Ignore links pointing to"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:187
-msgid "If you choose to ignore some subdomains, input them here (one per line)"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:189
-msgid "Forced local domains (one per line)"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:190
-msgid "Forbidden domains (one per line) &mdash; useful for comment text"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:191
-msgid "URLs pointing to forbidden domains will be replaced with"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:192
-msgid "Displaying &amp; Interacting Options"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:193
-msgid "External links&#8217; CSS class"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:194
-msgid "Local links&#8217; CSS class"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:195
-msgid "Open"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:196
-msgid "Prefix external links with"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:201
-#, php-format
-msgid "<em>All input fields are optional. To say the truth, configuring this plugin can be quite confusing (I'm terribly sorry!) I have written a rather detailed guide that might help you out, please take a <a href=\"%s#usage\">look at it</a> if you are interested.</em>"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:202
-msgid "<em>Customize how your links are shown.</em>"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:211
-msgid "all subdomains"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:212
-msgid "no subdomains"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:213
-msgid "some subdomains"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:216
-msgid "using the \"onclick\" attribute"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:217
-msgid "using the \"target\" attribute"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:218
-msgid "using jQuery"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:221
-msgid "one new window for each external link (_blank)"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:222
-msgid "just one new window for all external links (_new)"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:223
-msgid "no new window at all for external links"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:226
-msgid "nothing"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:228
-msgid "a custom URL"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:232
-msgid "post contents, i.e. hook to <code>the_content()</code>"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:233
-msgid "comment text, i.e. hook to <code>comment_text()</code>"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:234
-msgid "text widgets, i.e. hook to <code>widget_text()</code>"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:235
-msgid "This plugin will find and process all links on any given page. This option will override what you check above. This is an advanced feature and should be used only for sites that do not have too much contents."
-msgstr ""
-
-#: includes/class-bwp-external-links.php:236
-msgid "a very simple CSS provided so that you can see the \"external\" effect :). It is recommended that you disable this and use your own rules."
-msgstr ""
-
-#: includes/class-bwp-external-links.php:237
-msgid "<code>rel=\"external\"</code> to external links?"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:238
-msgid "<code>rel=\"nofollow\"</code> to external links?"
-msgstr ""
-
-#: includes/class-bwp-external-links.php:241
-msgid "a simple string describing the relation."
-msgstr ""
-
-#: includes/class-bwp-external-links.php:243
-msgid "This can be <code>#top</code>, <code>http://www.google.com</code> or anything else suitable for the <code>href</code> attribute."
-msgstr ""
-
-#: includes/class-bwp-external-links.php:246
-msgid " <em>and the custom URL (if chosen) is</em> "
-msgstr ""
-
-#: includes/class-bwp-external-links.php:246
-msgid "(for example, prepend external links with something like <code>http://yourdomain.com/out.php?</code>)"
-msgstr ""
-
-#: includes/class-bwp-framework.php:178
-#, php-format
-msgid "%s requires WordPress <strong>%s</strong> or higher and PHP <strong>%s</strong> or higher. The plugin will not function until you update your software. Please deactivate this plugin."
-msgstr ""
-
-#: includes/class-bwp-framework.php:190
-msgid "Development Log"
-msgstr ""
-
-#: includes/class-bwp-framework.php:190
-msgid "Frequently Asked Questions"
-msgstr ""
-
-#: includes/class-bwp-framework.php:190
-msgid "FAQ"
-msgstr ""
-
-#: includes/class-bwp-framework.php:190
-msgid "Got a problem? Send me a feedback!"
-msgstr ""
-
-#: includes/class-bwp-framework.php:190
-msgid "Contact"
-msgstr ""
-
-#: includes/class-bwp-framework.php:197
-msgid "You can buy me some special coffees if you appreciate my work, thank you!"
-msgstr ""
-
-#: includes/class-bwp-framework.php:211
-msgid "Donate to "
-msgstr ""
-
-#: includes/class-bwp-framework.php:213
-msgid "One cup $5.00"
-msgstr ""
-
-#: includes/class-bwp-framework.php:214
-msgid "Two cups $10.00"
-msgstr ""
-
-#: includes/class-bwp-framework.php:215
-msgid "Five cups! $25.00"
-msgstr ""
-
-#: includes/class-bwp-framework.php:216
-msgid "One LL-cup!!! $50.00"
-msgstr ""
-
-#: includes/class-bwp-framework.php:217
-msgid "... or any amount!"
-msgstr ""
-
-#: includes/class-bwp-framework.php:232
-msgid "Latest updates from BetterWP.net!"
-msgstr ""
-
-#: includes/class-bwp-framework.php:233
-msgid "Follow me on Twitter!"
-msgstr ""
-
-#: includes/class-bwp-framework.php:243
-msgid "This Plugin is Proudly Sponsored By"
-msgstr ""
-
-#: includes/class-bwp-framework.php:260
-#, php-format
-msgid "You are using version %s!"
-msgstr ""
-
-#: includes/class-bwp-framework.php:396
-msgid "Settings"
-msgstr ""
 
 #: includes/bwp-option-page/includes/class-bwp-option-page.php:80
 msgid "Plugin Configurations"
 msgstr ""
 
-#: includes/bwp-option-page/includes/class-bwp-option-page.php:398
+#: includes/bwp-option-page/includes/class-bwp-option-page.php:503
 msgid "Save Changes"
 msgstr ""
 
+#: includes/class-bwp-external-links.php:79
+msgid "Better WordPress External Links Settings"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:178
+msgid "Better WordPress External Links"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:194
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:231
+msgid "Plugin Functionality"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:232
+msgid "Process links inside"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:233
+msgid "Process page-wide links?"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:234
+msgid "Link Settings"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:235
+msgid "Subdomains"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:236
+msgid "Local subdomains &mdash; Links to these subdomains are local"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:238
+msgid "Forced local domains"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:239
+msgid "Forbidden domains &mdash; useful for comment text"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:240
+msgid "Links to forbidden domains will be replaced with"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:241
+msgid "External link prefix"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:242
+msgid "Custom URL prefix"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:243
+msgid "Attribute Settings"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:244
+#: includes/class-bwp-external-links.php:245
+msgid "Add the attribute"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:246
+msgid "Custom rel attribute values"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:247
+msgid "Open external links"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:248
+msgid "Display Settings"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:249
+msgid "External links&#8217; CSS class"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:250
+msgid "External image links&#8217; CSS class"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:251
+msgid "Local links&#8217; CSS class"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:252
+msgid "Use CSS provided by this plugin?"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:280
+#, php-format
+msgid ""
+"Control which kinds of links are considered external, and how they are "
+"processed. Check this <a href=\"%s#usage\">detailed guide</a> out for more "
+"information.</em>"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:286
+msgid "Customize attributes added to external links."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:289
+msgid "Customize the look and feel of external and local links."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:299
+msgid "Links to all subdomains are considered local"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:300
+msgid "Links to all subdomains are considered external"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:301
+msgid "Links to some subdomains are considered local"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:304
+msgid "using the \"onclick\" attribute"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:305
+msgid "using the \"target\" attribute"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:306
+msgid "using jQuery"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:309
+msgid "in one new tab/window (_blank)"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:310
+msgid "in just one new window (_new)"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:311
+msgid "in the same tab/window"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:314
+msgid "No prefix"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:316
+msgid "A custom URL"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:320
+msgid "post contents, i.e. hook to <code>the_content()</code>"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:321
+msgid "comment text, i.e. hook to <code>comment_text()</code>"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:322
+msgid "text widgets, i.e. hook to <code>widget_text()</code>"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:323
+msgid ""
+"This plugin will find and process all links on any given page. This option "
+"will override what you check above. This is an advanced feature and should "
+"be used with caution."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:324
+msgid ""
+"a very simple CSS provided so that you can see the \"external\" effect :). "
+"It is recommended that you disable this and use your own rules."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:325
+msgid "<code>rel=\"external\"</code> to external links?"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:326
+msgid "<code>rel=\"nofollow\"</code> to external links?"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:331
+msgid "separate each value by a space."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:343
+msgid ""
+"This can be <code>#top</code>, <code>http://www.google.com</code> or "
+"anything else suitable for the <code>href</code> attribute."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:358
+msgid ""
+"For example you can prepend external links with something like <code>http://"
+"yourdomain.com/out.php?</code>."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:361
+#, php-format
+msgid ""
+"Check <a href=\"%s\" target=\"_blank\">this tutorial</a> out for some tips "
+"on how to set up a redirection/disclaimer page for external links."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:371
+msgid ""
+"Please put one subdomain per line (WITHOUT scheme and main domain). Wildcard "
+"is supported.<br />Example: <code>sub2.sub1</code> or <code>*.sub1</code> "
+"will make <code>sub2.sub1.example.com</code> local.<br /><strong>Note</"
+"strong>: <code>www</code> and <code>non-www</code> versions of the same "
+"domain are always considered local."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:382
+msgid ""
+"Please put one domain per line (WITHOUT scheme). Wildcard is supported.<br /"
+">Example: <code>external.com</code> or <code>*.external.com</code>."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:391
+msgid ""
+"Please put one domain per line (WITHOUT scheme). Wildcard is supported.<br /"
+">Example: <code>forbidden.com</code> or <code>*.forbidden.com</code>."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:468
+msgid "All options have been saved."
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:211
+#, php-format
+msgid ""
+"%s requires WordPress <strong>%s</strong> or higher and PHP <strong>%s</"
+"strong> or higher. The plugin will not protected function until you update "
+"your software. Please deactivate this plugin."
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Development Log"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Got a problem? Send me a feedback!"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Contact"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:235
+#: includes/class-bwp-framework.php:229
+msgid ""
+"You can buy me some special coffees if you appreciate my work, thank you!"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:249
+#: includes/class-bwp-framework.php:243
+msgid "Donate to "
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:251
+#: includes/class-bwp-framework.php:245
+msgid "One cup $5.00"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:252
+#: includes/class-bwp-framework.php:246
+msgid "Two cups $10.00"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:253
+#: includes/class-bwp-framework.php:247
+msgid "Five cups! $25.00"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:254
+#: includes/class-bwp-framework.php:248
+msgid "One LL-cup!!! $50.00"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:255
+#: includes/class-bwp-framework.php:249
+msgid "... or any amount!"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:270
+#: includes/class-bwp-framework.php:264
+msgid "Latest updates from BetterWP.net!"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:271
+#: includes/class-bwp-framework.php:265
+msgid "Follow me on Twitter!"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:281
+#: includes/class-bwp-framework.php:275
+msgid "This Plugin is Proudly Sponsored By"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:300
+#: includes/class-bwp-framework.php:294
+#, php-format
+msgid "You are using version %s!"
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:541
+#: includes/class-bwp-framework.php:467
+msgid "Settings"
+msgstr ""
+
+#: includes/class-bwp-framework.php:205
+#, php-format
+msgid ""
+"%s requires WordPress <strong>%s</strong> or higher and PHP <strong>%s</"
+"strong> or higher. The plugin will not function until you update your "
+"software. Please deactivate this plugin."
+msgstr ""

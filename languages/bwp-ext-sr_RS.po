@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Better Wordpress External Links\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-01 21:51+0700\n"
+"POT-Creation-Date: 2014-06-10 20:21+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Khang Minh <contact@betterwp.net>\n"
 "Language-Team: Jrf <wordpress_nospam@adviesenzo.nl>\n"
@@ -15,173 +15,210 @@ msgstr ""
 "X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: includes/class-bwp-external-links.php:77
+#: includes/bwp-option-page/includes/class-bwp-option-page.php:80
+msgid "Plugin Configurations"
+msgstr "Plugin konfiguracija"
+
+#: includes/bwp-option-page/includes/class-bwp-option-page.php:503
+msgid "Save Changes"
+msgstr "Sačuvaj promene"
+
+#: includes/class-bwp-external-links.php:79
 msgid "Better WordPress External Links Settings"
 msgstr "Better WordPress External Links postavke"
 
-#: includes/class-bwp-external-links.php:149
+#: includes/class-bwp-external-links.php:178
 msgid "Better WordPress External Links"
 msgstr "Better WordPress External Links"
 
-#: includes/class-bwp-external-links.php:160
+#: includes/class-bwp-external-links.php:194
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Nemate  potrebne dozvole za pristup ovoj stranici ."
 
-#: includes/class-bwp-external-links.php:175
-msgid "General Options"
-msgstr "Opšte opcije"
+#: includes/class-bwp-external-links.php:231
+#, fuzzy
+msgid "Plugin Functionality"
+msgstr "Plugin konfiguracija"
 
-#: includes/class-bwp-external-links.php:176
+#: includes/class-bwp-external-links.php:232
 msgid "Process links inside"
 msgstr "Obrada linkova unutra"
 
-#: includes/class-bwp-external-links.php:177
+#: includes/class-bwp-external-links.php:233
 msgid "Process page-wide links?"
 msgstr "Obrada linkova preko cele stranice?"
 
-#: includes/class-bwp-external-links.php:178
-msgid "Use CSS provided by this plugin?"
-msgstr "Koristite CSS omogućen od strane ovog plugin-a?"
+#: includes/class-bwp-external-links.php:234
+#, fuzzy
+msgid "Link Settings"
+msgstr "Postavke"
 
-#: includes/class-bwp-external-links.php:179
-msgid "Processing Options"
-msgstr "Opcije se obradjuju"
+#: includes/class-bwp-external-links.php:235
+#, fuzzy
+msgid "Subdomains"
+msgstr "nema poddomena"
 
-#: includes/class-bwp-external-links.php:180
-#: includes/class-bwp-external-links.php:181
+#: includes/class-bwp-external-links.php:236
+msgid "Local subdomains &mdash; Links to these subdomains are local"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:238
+#, fuzzy
+msgid "Forced local domains"
+msgstr "Prisiljeni lokalni domeni (jedan po rečenici)"
+
+#: includes/class-bwp-external-links.php:239
+#, fuzzy
+msgid "Forbidden domains &mdash; useful for comment text"
+msgstr "Forbidden domains (one per line) &mdash; useful for comment text"
+
+#: includes/class-bwp-external-links.php:240
+#, fuzzy
+msgid "Links to forbidden domains will be replaced with"
+msgstr "URLsovi koji pokazuju na zabranjene domailne će biti zamenjeni sa"
+
+#: includes/class-bwp-external-links.php:241
+#, fuzzy
+msgid "External link prefix"
+msgstr "Prefix eksternih linkova sa"
+
+#: includes/class-bwp-external-links.php:242
+#, fuzzy
+msgid "Custom URL prefix"
+msgstr "custom URL"
+
+#: includes/class-bwp-external-links.php:243
+#, fuzzy
+msgid "Attribute Settings"
+msgstr "Postavke"
+
+#: includes/class-bwp-external-links.php:244
+#: includes/class-bwp-external-links.php:245
 msgid "Add the attribute"
 msgstr "Dodati atribut"
 
-#: includes/class-bwp-external-links.php:182
-msgid "A custom rel attribute"
+#: includes/class-bwp-external-links.php:246
+#, fuzzy
+msgid "Custom rel attribute values"
 msgstr "Custom rel atribut"
 
-#: includes/class-bwp-external-links.php:183
-msgid "Ignore links pointing to"
-msgstr "Ignorišite linkove koji pokazuju na"
+#: includes/class-bwp-external-links.php:247
+#, fuzzy
+msgid "Open external links"
+msgstr "Otvoriti"
 
-#: includes/class-bwp-external-links.php:184
-msgid "If you choose to ignore some subdomains, input them here (one per line)"
-msgstr ""
-"Ako izaberete da ignorišete ne poddomene, unesite ih ovde  (jedan po "
-"rečenici)"
+#: includes/class-bwp-external-links.php:248
+#, fuzzy
+msgid "Display Settings"
+msgstr "Postavke"
 
-#: includes/class-bwp-external-links.php:186
-msgid "Forced local domains (one per line)"
-msgstr "Prisiljeni lokalni domeni (jedan po rečenici)"
-
-#: includes/class-bwp-external-links.php:187
-msgid "Forbidden domains (one per line) &mdash; useful for comment text"
-msgstr "Forbidden domains (one per line) &mdash; useful for comment text"
-
-#: includes/class-bwp-external-links.php:188
-msgid "URLs pointing to forbidden domains will be replaced with"
-msgstr "URLsovi koji pokazuju na zabranjene domailne će biti zamenjeni sa"
-
-#: includes/class-bwp-external-links.php:189
-msgid "Displaying &amp; Interacting Options"
-msgstr "Prikazivanje i &amp; Opcije interakcije"
-
-#: includes/class-bwp-external-links.php:190
+#: includes/class-bwp-external-links.php:249
 msgid "External links&#8217; CSS class"
 msgstr "External links&#8217; CSS class"
 
-#: includes/class-bwp-external-links.php:191
+#: includes/class-bwp-external-links.php:250
+#, fuzzy
+msgid "External image links&#8217; CSS class"
+msgstr "External links&#8217; CSS class"
+
+#: includes/class-bwp-external-links.php:251
 msgid "Local links&#8217; CSS class"
 msgstr "Local links&#8217; CSS class"
 
-#: includes/class-bwp-external-links.php:192
-msgid "Open"
-msgstr "Otvoriti"
+#: includes/class-bwp-external-links.php:252
+msgid "Use CSS provided by this plugin?"
+msgstr "Koristite CSS omogućen od strane ovog plugin-a?"
 
-#: includes/class-bwp-external-links.php:193
-msgid "Prefix external links with"
-msgstr "Prefix eksternih linkova sa"
-
-#: includes/class-bwp-external-links.php:198
+#: includes/class-bwp-external-links.php:280
 #, php-format
 msgid ""
-"<em>All input fields are optional. To say the truth, configuring this plugin "
-"can be quite confusing (I'm terribly sorry!) I have written a rather "
-"detailed guide that might help you out, please take a <a href=\"%s#usage"
-"\">look at it</a> if you are interested.</em>"
+"Control which kinds of links are considered external, and how they are "
+"processed. Check this <a href=\"%s#usage\">detailed guide</a> out for more "
+"information.</em>"
 msgstr ""
-"<em> sva ulazna polja su opcionlna . Iskreno , konfigurisanje ovog plugina "
-"može biti prilično zbunjujuće ( Strašno mi je žao ! ) Napisao sam prilično "
-"detaljan vodič koji može da vam pomogne , molim vas pogledajte <a href="
-"\"%s#usage\"> na to </a> ako ste zainteresovani </em > ."
 
-#: includes/class-bwp-external-links.php:199
-msgid "<em>Customize how your links are shown.</em>"
-msgstr "<em>Customize-ujte kako su vaši linkovi prikazani.</em>"
+#: includes/class-bwp-external-links.php:286
+msgid "Customize attributes added to external links."
+msgstr ""
 
-#: includes/class-bwp-external-links.php:208
-msgid "all subdomains"
-msgstr "svi poddomeni"
+#: includes/class-bwp-external-links.php:289
+msgid "Customize the look and feel of external and local links."
+msgstr ""
 
-#: includes/class-bwp-external-links.php:209
-msgid "no subdomains"
-msgstr "nema poddomena"
+#: includes/class-bwp-external-links.php:299
+msgid "Links to all subdomains are considered local"
+msgstr ""
 
-#: includes/class-bwp-external-links.php:210
-msgid "some subdomains"
-msgstr "neki poddomeni"
+#: includes/class-bwp-external-links.php:300
+#, fuzzy
+msgid "Links to all subdomains are considered external"
+msgstr "nema novih prozora za eksterne linkove"
 
-#: includes/class-bwp-external-links.php:213
+#: includes/class-bwp-external-links.php:301
+msgid "Links to some subdomains are considered local"
+msgstr ""
+
+#: includes/class-bwp-external-links.php:304
 msgid "using the \"onclick\" attribute"
 msgstr "koristite \"onclick\"  atribut"
 
-#: includes/class-bwp-external-links.php:214
+#: includes/class-bwp-external-links.php:305
 msgid "using the \"target\" attribute"
 msgstr "koristite\"target\" atribut"
 
-#: includes/class-bwp-external-links.php:215
+#: includes/class-bwp-external-links.php:306
 msgid "using jQuery"
 msgstr "koristite  jQuery"
 
-#: includes/class-bwp-external-links.php:218
-msgid "one new window for each external link (_blank)"
+#: includes/class-bwp-external-links.php:309
+#, fuzzy
+msgid "in one new tab/window (_blank)"
 msgstr "jedan novi ptozor za svaki eksterni link(_blank)"
 
-#: includes/class-bwp-external-links.php:219
-msgid "just one new window for all external links (_new)"
+#: includes/class-bwp-external-links.php:310
+#, fuzzy
+msgid "in just one new window (_new)"
 msgstr "samo jedan prozor za eksterne linkove(_new)"
 
-#: includes/class-bwp-external-links.php:220
-msgid "no new window at all for external links"
+#: includes/class-bwp-external-links.php:311
+#, fuzzy
+msgid "in the same tab/window"
 msgstr "nema novih prozora za eksterne linkove"
 
-#: includes/class-bwp-external-links.php:223
-msgid "nothing"
-msgstr "ništa"
+#: includes/class-bwp-external-links.php:314
+#, fuzzy
+msgid "No prefix"
+msgstr "Prefix eksternih linkova sa"
 
-#: includes/class-bwp-external-links.php:225
-msgid "a custom URL"
+#: includes/class-bwp-external-links.php:316
+#, fuzzy
+msgid "A custom URL"
 msgstr "custom URL"
 
-#: includes/class-bwp-external-links.php:229
+#: includes/class-bwp-external-links.php:320
 msgid "post contents, i.e. hook to <code>the_content()</code>"
 msgstr "sadržaj posta, i.e.zakačiti na <code>the_content()</code>"
 
-#: includes/class-bwp-external-links.php:230
+#: includes/class-bwp-external-links.php:321
 msgid "comment text, i.e. hook to <code>comment_text()</code>"
 msgstr "tekst komentara, i.e.zakačiti na <code>comment_text()</code>"
 
-#: includes/class-bwp-external-links.php:231
+#: includes/class-bwp-external-links.php:322
 msgid "text widgets, i.e. hook to <code>widget_text()</code>"
 msgstr "tekst widgeti, i.e.zakačiti na <code>widget_text()</code>"
 
-#: includes/class-bwp-external-links.php:232
+#: includes/class-bwp-external-links.php:323
+#, fuzzy
 msgid ""
 "This plugin will find and process all links on any given page. This option "
 "will override what you check above. This is an advanced feature and should "
-"be used only for sites that do not have too much contents."
+"be used with caution."
 msgstr ""
 "Ovaj plugin će naći i obraditi sve linkove na bilo kojoj stranici . Ova "
 "opcija će zameniti ono što ste čekirali gore . Ovo je napredna funkcija i "
 "treba da se koristi samo za sajtove koji nemaju previše sadržaja ."
 
-#: includes/class-bwp-external-links.php:233
+#: includes/class-bwp-external-links.php:324
 msgid ""
 "a very simple CSS provided so that you can see the \"external\" effect :). "
 "It is recommended that you disable this and use your own rules."
@@ -189,19 +226,19 @@ msgstr ""
 "vrlo jednostavna CSS omogućen tako da možete da vidite \"external\" "
 "effect :). . Preporučuje se da isključite ovo i koriste sopstvena pravila ."
 
-#: includes/class-bwp-external-links.php:234
+#: includes/class-bwp-external-links.php:325
 msgid "<code>rel=\"external\"</code> to external links?"
 msgstr "<code>rel=\"external\"</code>za eksterne linkove?"
 
-#: includes/class-bwp-external-links.php:235
+#: includes/class-bwp-external-links.php:326
 msgid "<code>rel=\"nofollow\"</code> to external links?"
 msgstr "<code>rel=\"nofollow\"</code>na eksterne linkove?"
 
-#: includes/class-bwp-external-links.php:238
-msgid "a simple string describing the relation."
-msgstr "jednostavan string opisuje odnos ."
+#: includes/class-bwp-external-links.php:331
+msgid "separate each value by a space."
+msgstr ""
 
-#: includes/class-bwp-external-links.php:240
+#: includes/class-bwp-external-links.php:343
 msgid ""
 "This can be <code>#top</code>, <code>http://www.google.com</code> or "
 "anything else suitable for the <code>href</code> attribute."
@@ -209,19 +246,147 @@ msgstr ""
 "To može biti<code>#top</code>, <code>http://www.google.com</code>  ili nešto "
 "drugo pogodno za href <code>href</code>atributa."
 
-#: includes/class-bwp-external-links.php:243
-msgid " <em>and the custom URL (if chosen) is</em> "
-msgstr "<em>i custom URL (ako je izabrano) je</em>"
-
-#: includes/class-bwp-external-links.php:243
+#: includes/class-bwp-external-links.php:358
+#, fuzzy
 msgid ""
-"(for example, prepend external links with something like <code>http://"
-"yourdomain.com/out.php?</code>)"
+"For example you can prepend external links with something like <code>http://"
+"yourdomain.com/out.php?</code>."
 msgstr ""
 "(npr, eksterne linkove sa nečim kao<code>http://yourdomain.com/out.php?</"
 "code>)"
 
-#: includes/class-bwp-framework.php:172
+#: includes/class-bwp-external-links.php:361
+#, php-format
+msgid ""
+"Check <a href=\"%s\" target=\"_blank\">this tutorial</a> out for some tips "
+"on how to set up a redirection/disclaimer page for external links."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:371
+msgid ""
+"Please put one subdomain per line (WITHOUT scheme and main domain). Wildcard "
+"is supported.<br />Example: <code>sub2.sub1</code> or <code>*.sub1</code> "
+"will make <code>sub2.sub1.example.com</code> local.<br /><strong>Note</"
+"strong>: <code>www</code> and <code>non-www</code> versions of the same "
+"domain are always considered local."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:382
+msgid ""
+"Please put one domain per line (WITHOUT scheme). Wildcard is supported.<br /"
+">Example: <code>external.com</code> or <code>*.external.com</code>."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:391
+msgid ""
+"Please put one domain per line (WITHOUT scheme). Wildcard is supported.<br /"
+">Example: <code>forbidden.com</code> or <code>*.forbidden.com</code>."
+msgstr ""
+
+#: includes/class-bwp-external-links.php:468
+msgid "All options have been saved."
+msgstr ""
+
+#: includes/class-bwp-framework-improved.php:211
+#, fuzzy, php-format
+msgid ""
+"%s requires WordPress <strong>%s</strong> or higher and PHP <strong>%s</"
+"strong> or higher. The plugin will not protected function until you update "
+"your software. Please deactivate this plugin."
+msgstr ""
+"%s zahteva WordPress<strong>%s</strong>  ili više i PHP <strong>%s</strong>  "
+"ili više. Plugin neće funkcionisati dok ne update-ujete vaš softver. "
+"Deaktivirajte vaš plugin."
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Development Log"
+msgstr "Log programiranja"
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Frequently Asked Questions"
+msgstr "Često postavljena pitanja"
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Got a problem? Send me a feedback!"
+msgstr "Imate problem? Pošaljite mi feedback!"
+
+#: includes/class-bwp-framework-improved.php:228
+#: includes/class-bwp-framework.php:222
+msgid "Contact"
+msgstr "Kontakt"
+
+#: includes/class-bwp-framework-improved.php:235
+#: includes/class-bwp-framework.php:229
+msgid ""
+"You can buy me some special coffees if you appreciate my work, thank you!"
+msgstr "Možete mi kupiti neke posebne kafe ako cenite moj rad , hvala !"
+
+#: includes/class-bwp-framework-improved.php:249
+#: includes/class-bwp-framework.php:243
+msgid "Donate to "
+msgstr "Donirati"
+
+#: includes/class-bwp-framework-improved.php:251
+#: includes/class-bwp-framework.php:245
+msgid "One cup $5.00"
+msgstr "Jedan cup $5.00"
+
+#: includes/class-bwp-framework-improved.php:252
+#: includes/class-bwp-framework.php:246
+msgid "Two cups $10.00"
+msgstr "Dva cup-a $10.00"
+
+#: includes/class-bwp-framework-improved.php:253
+#: includes/class-bwp-framework.php:247
+msgid "Five cups! $25.00"
+msgstr "Pet cup-ova! $25.00"
+
+#: includes/class-bwp-framework-improved.php:254
+#: includes/class-bwp-framework.php:248
+msgid "One LL-cup!!! $50.00"
+msgstr "Jedan LL-cup!!!  $50.00"
+
+#: includes/class-bwp-framework-improved.php:255
+#: includes/class-bwp-framework.php:249
+msgid "... or any amount!"
+msgstr "... ili bilo koja količina"
+
+#: includes/class-bwp-framework-improved.php:270
+#: includes/class-bwp-framework.php:264
+msgid "Latest updates from BetterWP.net!"
+msgstr "Poslednji update sa BetterWP.net!"
+
+#: includes/class-bwp-framework-improved.php:271
+#: includes/class-bwp-framework.php:265
+msgid "Follow me on Twitter!"
+msgstr "Prati me na Twitter!"
+
+#: includes/class-bwp-framework-improved.php:281
+#: includes/class-bwp-framework.php:275
+#, fuzzy
+msgid "This Plugin is Proudly Sponsored By"
+msgstr "Plugin konfiguracija"
+
+#: includes/class-bwp-framework-improved.php:300
+#: includes/class-bwp-framework.php:294
+#, php-format
+msgid "You are using version %s!"
+msgstr "Koristite verziju %s!"
+
+#: includes/class-bwp-framework-improved.php:541
+#: includes/class-bwp-framework.php:467
+msgid "Settings"
+msgstr "Postavke"
+
+#: includes/class-bwp-framework.php:205
 #, php-format
 msgid ""
 "%s requires WordPress <strong>%s</strong> or higher and PHP <strong>%s</"
@@ -232,79 +397,58 @@ msgstr ""
 "ili više. Plugin neće funkcionisati dok ne update-ujete vaš softver. "
 "Deaktivirajte vaš plugin."
 
-#: includes/class-bwp-framework.php:183
-msgid "Development Log"
-msgstr "Log programiranja"
+#~ msgid "General Options"
+#~ msgstr "Opšte opcije"
 
-#: includes/class-bwp-framework.php:183
-msgid "Frequently Asked Questions"
-msgstr "Često postavljena pitanja"
+#~ msgid "Processing Options"
+#~ msgstr "Opcije se obradjuju"
 
-#: includes/class-bwp-framework.php:183
-msgid "FAQ"
-msgstr "FAQ"
+#~ msgid "Ignore links pointing to"
+#~ msgstr "Ignorišite linkove koji pokazuju na"
 
-#: includes/class-bwp-framework.php:183
-msgid "Got a problem? Send me a feedback!"
-msgstr "Imate problem? Pošaljite mi feedback!"
+#~ msgid ""
+#~ "If you choose to ignore some subdomains, input them here (one per line)"
+#~ msgstr ""
+#~ "Ako izaberete da ignorišete ne poddomene, unesite ih ovde  (jedan po "
+#~ "rečenici)"
 
-#: includes/class-bwp-framework.php:183
-msgid "Contact"
-msgstr "Kontakt"
+#~ msgid "Displaying &amp; Interacting Options"
+#~ msgstr "Prikazivanje i &amp; Opcije interakcije"
 
-#: includes/class-bwp-framework.php:190
-msgid ""
-"You can buy me some special coffees if you appreciate my work, thank you!"
-msgstr "Možete mi kupiti neke posebne kafe ako cenite moj rad , hvala !"
+#~ msgid "Open"
+#~ msgstr "Otvoriti"
 
-#: includes/class-bwp-framework.php:204
-msgid "Donate to "
-msgstr "Donirati"
+#~ msgid ""
+#~ "<em>All input fields are optional. To say the truth, configuring this "
+#~ "plugin can be quite confusing (I'm terribly sorry!) I have written a "
+#~ "rather detailed guide that might help you out, please take a <a href="
+#~ "\"%s#usage\">look at it</a> if you are interested.</em>"
+#~ msgstr ""
+#~ "<em> sva ulazna polja su opcionlna . Iskreno , konfigurisanje ovog "
+#~ "plugina može biti prilično zbunjujuće ( Strašno mi je žao ! ) Napisao sam "
+#~ "prilično detaljan vodič koji može da vam pomogne , molim vas pogledajte "
+#~ "<a href=\"%s#usage\"> na to </a> ako ste zainteresovani </em > ."
 
-#: includes/class-bwp-framework.php:206
-msgid "One cup $5.00"
-msgstr "Jedan cup $5.00"
+#~ msgid "<em>Customize how your links are shown.</em>"
+#~ msgstr "<em>Customize-ujte kako su vaši linkovi prikazani.</em>"
 
-#: includes/class-bwp-framework.php:207
-msgid "Two cups $10.00"
-msgstr "Dva cup-a $10.00"
+#~ msgid "all subdomains"
+#~ msgstr "svi poddomeni"
 
-#: includes/class-bwp-framework.php:208
-msgid "Five cups! $25.00"
-msgstr "Pet cup-ova! $25.00"
+#~ msgid "some subdomains"
+#~ msgstr "neki poddomeni"
 
-#: includes/class-bwp-framework.php:209
-msgid "One LL-cup!!! $50.00"
-msgstr "Jedan LL-cup!!!  $50.00"
+#~ msgid "no new window at all for external links"
+#~ msgstr "nema novih prozora za eksterne linkove"
 
-#: includes/class-bwp-framework.php:210
-msgid "... or any amount!"
-msgstr "... ili bilo koja količina"
+#~ msgid "nothing"
+#~ msgstr "ništa"
 
-#: includes/class-bwp-framework.php:225
-msgid "Latest updates from BetterWP.net!"
-msgstr "Poslednji update sa BetterWP.net!"
+#~ msgid "a simple string describing the relation."
+#~ msgstr "jednostavan string opisuje odnos ."
 
-#: includes/class-bwp-framework.php:226
-msgid "Follow me on Twitter!"
-msgstr "Prati me na Twitter!"
-
-#: includes/class-bwp-framework.php:235
-#, php-format
-msgid "You are using version %s!"
-msgstr "Koristite verziju %s!"
-
-#: includes/class-bwp-framework.php:367
-msgid "Settings"
-msgstr "Postavke"
-
-#: includes/bwp-option-page/includes/class-bwp-option-page.php:80
-msgid "Plugin Configurations"
-msgstr "Plugin konfiguracija"
-
-#: includes/bwp-option-page/includes/class-bwp-option-page.php:398
-msgid "Save Changes"
-msgstr "Sačuvaj promene"
+#~ msgid " <em>and the custom URL (if chosen) is</em> "
+#~ msgstr "<em>i custom URL (ako je izabrano) je</em>"
 
 #~ msgid "log"
 #~ msgstr "log"

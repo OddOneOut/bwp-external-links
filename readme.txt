@@ -3,8 +3,9 @@ Contributors: OddOneOut
 Donate link: http://betterwp.net/wordpress-plugins/bwp-external-links/#contributions
 Tags: external links, external images, external domains, external, nofollow, link-target, link-icon
 Requires at least: 3.0
-Tested up to: 3.9.1
+Tested up to: 3.9
 Stable tag: 1.1.3
+License: GPLv3 or later
 
 Gives you total control over external links on your website.
 
@@ -15,6 +16,10 @@ This plugin gives you total control over external links on your website. This pl
 **Demo**
 
 If you want to see this plugin in action, you can either visit [Better WordPress](http://betterwp.net) or [a user's website](http://wordpress.grc.nasa.gov) (NASA Glenn Research Center's Website).
+
+**Tutorials**
+
+Check out this [redirect external links tutorial](http://betterwp.net/wordpress-tips/redirect-external-links/) for some tips on how to set up a redirection/disclaimer page using BWP External Links.
 
 **Some Features**
 
@@ -70,7 +75,9 @@ It is highly recommended that you give the [Official Documentation](http://bette
 
 == Screenshots ==
 
-1. Some advanced settings for your external (and local) links.
+1. Plugin Functionality and Link Settings
+2. Attribute and Display Settings
+3. External links in action!
 
 == Changelog ==
 
@@ -83,8 +90,11 @@ It is highly recommended that you give the [Official Documentation](http://bette
 * Updated the default 'external' image (`external.png`) to use an optimized version (download size goes down from ~50KB to 404 bytes) - Thanks to Beheerder!
 * Updated Danish translation - Thanks to Randi!
 * Fixed an issue where links are not processed (priorities set for some filters were too high), thanks to user **jrf**.
+* Other fixes and enhancements
 
-I have also updated the [Official Documentation](http://betterwp.net/wordpress-plugins/bwp-external-links/#usage) to reflect all changes so it is highly recommended that you give it a good read.
+I have updated the [Official Documentation](http://betterwp.net/wordpress-plugins/bwp-external-links/#usage) to reflect all changes so it is highly recommended that you give it a good read.
+
+Also check out this [redirect external links tutorial](http://betterwp.net/wordpress-tips/redirect-external-links/) for some tips on how to set up a redirection/disclaimer page using BWP External Links.
 
 Note that BWP External Links now requires WordPress 3.0 or later.
 
