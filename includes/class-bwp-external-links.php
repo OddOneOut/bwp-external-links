@@ -860,7 +860,7 @@ class BWP_EXTERNAL_LINKS extends BWP_FRAMEWORK_IMPROVED {
 		$forbidden_domains = $this->_parse_options('input_forbidden', false);
 
 		// find all occurrences of anchors and fill matches with links
-		preg_match_all('#(<\s*?a\s[^>]+?>)[\S\s]*?<\s*?/a\s*?>#iu', $content, $matches, PREG_SET_ORDER);
+		preg_match_all('#(<a\s[^>]+?>)[\S\s]*?</a\s*?>#iu', $content, $matches, PREG_SET_ORDER);
 
 		foreach ($matches as $links)
 		{
